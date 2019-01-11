@@ -1,6 +1,4 @@
 #import <Foundation/Foundation.h>
-#import "SDAVAssetExportSession.h"
-
 @interface PHVideoExporter : NSObject
 
 typedef void (^videoExporterCompleteBlock)(BOOL success, NSError *__nullable error, NSURL  * __nullable fileUrl);
