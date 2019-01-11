@@ -8,7 +8,7 @@ const mime = require('mime');
  */
 mime.define({
  // 'font/opentype': ['otf'],
-  'font/truetype': ['ttf'],
+ // 'font/truetype': ['ttf'],
 });
 
 /**
